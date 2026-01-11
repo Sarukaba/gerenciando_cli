@@ -1,0 +1,30 @@
+[
+    {
+        "nome": "joao",
+        "e_mail": "jjvv.jjdd@gmail.com",
+        "data_nasc": "21/02/2005",
+        "autentication": {
+            "username": "Escapula",
+            "password": "29022004"
+        },
+        "tarefas": []
+    },
+    {
+        "nome": "Jo\u00e3o",
+        "e_mail": "jvdf.jvdf33@gmail.com",
+        "data_nasc": "21/03/2004",
+        "autentication": {
+            "username": "Sarukaba",
+            "password": "2233445566"
+        },
+        "tarefas": []
+    },
+    {
+        "nome": "Joao",
+        "e_mail": "jvdf.jvdf04@gmail.com",
+        "data_nasc": "23232323",
+        "username": "saruk",
+        "password": "231231",
+        "tarefas": []
+    }
+]
