@@ -1,9 +1,19 @@
-dictionario = {"nome": 
-               {
-                    'pessoa':"victor",
-                    "cidade": "BJ"
-                },
-               "idade": 21
-               }
+def testando_erro():
+    try:
+        nome = input("Digite nome: ")
+        nome = int(nome)
+        if type(nome) != str:
+            raise ValueError
 
-print(dictionario["nome"]["pessoa"])
+    except StopAsyncIteration:
+        return "GOD"
+    
+    except ValueError:
+        return "OMG"
+    
+    except:
+        return "Outro erro!"
+    
+a = testando_erro
+
+print(a())

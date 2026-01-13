@@ -1,6 +1,6 @@
 [
     {
-        "nome": "joao",
+        "nome": "Jo\u00e3o",
         "e_mail": "jjvv.jjdd@gmail.com",
         "data_nasc": "21/02/2005",
         "autentication": {
@@ -23,8 +23,10 @@
         "nome": "Joao",
         "e_mail": "jvdf.jvdf04@gmail.com",
         "data_nasc": "23232323",
-        "username": "saruk",
-        "password": "231231",
+        "autentication": {
+            "username": "saruk",
+            "password": "231231"
+        },
         "tarefas": []
     }
 ]

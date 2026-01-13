@@ -1,8 +1,9 @@
 import json
 PATH_JSON = "storage/registered_users.json"
+
 def register_user(dados: dict):
     user_registration_data = dados
-
+    
     with open(PATH_JSON,"r",encoding="utf-8") as arquivo:
         conteudo = json.load(arquivo)
     

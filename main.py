@@ -1,5 +1,5 @@
-from gui import autentication_screen, login_screen, register_screen
-from tasks import register_user, log_in_user
+from gui.menus import autentication_screen, login_screen, register_screen
+from tasks.tasks_user import register_user, log_in_user
 
 
 def main():
@@ -15,7 +15,7 @@ def main():
                 print("Falha ao realizar o login")
 
         elif user_option == "2":
-            user_data = register_screen()
+            user_data = register_screen()         
             print(register_user(user_data))
             
 
