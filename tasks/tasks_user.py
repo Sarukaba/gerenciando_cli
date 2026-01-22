@@ -1,5 +1,5 @@
 import json
-PATH_JSON = "storage/registered_users.json"
+PATH_JSON = "storage/register_users.json"
 
 def register_user(dados: dict):
     user_registration_data = dados
